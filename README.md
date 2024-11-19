@@ -27,7 +27,7 @@ Publish the website in the LocalHost.
 
 ## PROGRAM :
 ### index.html:
-'''
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -148,9 +148,10 @@ Publish the website in the LocalHost.
     <script src="script.js"></script>
 </body>
 </html>
-'''
+```
+
 ## styles.css:
-'''
+```
 /* Center hero text */
 header {
     background: url('image.png') center/cover no-repeat;
@@ -170,9 +171,9 @@ footer {
     font-size: 0.9rem;
     letter-spacing: 0.5px;
 }
-'''
+```
 ## script.js:
-'''
+```
 let cart = [];
 const cartItems = document.getElementById('cartItems');
 const cartTotal = document.getElementById('cartTotal');
@@ -227,7 +228,7 @@ function removeItem(name) {
     cart = cart.filter((item) => item.name !== name);
     updateCart();
 }
-'''
+```
 
 
 ## OUTPUT:
